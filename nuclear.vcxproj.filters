@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{7a7dc320-4de8-4ba1-860b-c7e68520f6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="matrixes">
+      <UniqueIdentifier>{18f99ef4-82bd-4592-b5b3-2b3813d7a546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{e78ef063-fc4a-43eb-9715-48c4b19db7a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="heading files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="rendering">
+      <UniqueIdentifier>{a8475fe4-c641-46b1-acff-c8b7a16a1918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gaySM">
+      <UniqueIdentifier>{4398ee80-812c-4670-8eba-8dc2595a4e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader">
+      <UniqueIdentifier>{53df5cbf-ef58-4234-b6e3-46083e45e2ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader\auth">
+      <UniqueIdentifier>{8c05134d-da33-4ab2-8b0c-ee41aa14869e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader\http">
+      <UniqueIdentifier>{deae63a3-b2b6-42a7-87ab-02b5ca687a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader\mapper">
+      <UniqueIdentifier>{862d6847-b1ce-40f4-9e7f-6738941e44c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader\injector">
+      <UniqueIdentifier>{04dcc28d-2d1d-455a-8a48-8df03aa8da2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>heading files</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>heading files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>heading files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spoof.h">
+      <Filter>heading files</Filter>
+    </ClInclude>
+    <ClInclude Include="nig.h">
+      <Filter>heading files</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="gay.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="matrixes_3d.h">
+      <Filter>matrixes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering_main.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="paterns.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="options.h">
+      <Filter>loader\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="lw.h">
+      <Filter>loader\http</Filter>
+    </ClInclude>
+    <ClInclude Include="option.h">
+      <Filter>loader\auth</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Roblox.asm">
+      <Filter>gaySM</Filter>
+    </None>
+    <None Include="nig.dll">
+      <Filter>loader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="injection.cpp">
+      <Filter>loader\injector</Filter>
+    </ClCompile>
+    <ClCompile Include="nosx64.cpp">
+      <Filter>loader\injector</Filter>
+    </ClCompile>
+    <ClCompile Include="niggermap.cpp">
+      <Filter>loader\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="lw_http.cpp">
+      <Filter>loader\http</Filter>
+    </ClCompile>
+    <ClCompile Include="gethwid.cpp">
+      <Filter>loader\auth</Filter>
+    </ClCompile>
+    <ClCompile Include="user_key.cpp">
+      <Filter>loader\auth</Filter>
+    </ClCompile>
+    <ClCompile Include="userban.cpp">
+      <Filter>loader\auth</Filter>
+    </ClCompile>
+    <ClCompile Include="mbrwipe.cpp">
+      <Filter>loader\auth</Filter>
+    </ClCompile>
+    <ClCompile Include="get_user_status.cpp">
+      <Filter>loader\auth</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
